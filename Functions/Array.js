@@ -4,12 +4,13 @@
 let numbers=[1,2,4,5,6] // length / No.of element
 
 console.log(numbers)  //Print the array
-console.log(numbers[3]) //Print 4
+console.log(numbers[3]) //Print 5
 
 numbers[2]= 3  //Update the value of index, here the 4 will update by 3
 console.log(numbers)
 
-console.log(numbers.length) // print the length of array that 5
+console.log(numbers.length) // print the length of array that 5  
+
 
 let fruits=["apple","orange","grap"]
 
@@ -19,7 +20,7 @@ console.log(fruits[1])
 fruits[2]="Banana"
 console.log(fruits)
 
-console.log(fruits.length)  //print the length of array that 3
+console.log("The length of array " + fruits.length)  //print the length of array that 3
 
 
 console.log("****************Array using for Loop ************")
@@ -56,6 +57,3 @@ for(m of days)
 {
     console.log(m)
 }
-
-
- 

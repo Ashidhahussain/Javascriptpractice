@@ -1,3 +1,8 @@
+
+//A function in JavaScript is a reusable block of code that performs a specific task.
+
+//Instead of writing the same code again and again, you can put it inside a function and call it whenever needed.
+
 //Mini Program
 
 function sayHello()
@@ -24,28 +29,6 @@ function sayName(name, age) //parameter
 sayName("Alice" , 20) //arguments
 sayName("Tom" , 23)
 
-
-
-// Function return
-
-function add(a,b)
-{
-    let sum=a+b;
-    //console.log("Sum is  " + sum)
-    return(sum)
-}
-let result = add(5, 10) // function call
-console.log(" The sum is  " +result)
-
-
-//Example of returning a string 
-
-/*function fullName(fname,lname)
-{
-    return(fname + "" + lname)
-}
-let Name= fullName("Aju","Tom")
-console.log(Name)*/
 
 
 //Arrow functions

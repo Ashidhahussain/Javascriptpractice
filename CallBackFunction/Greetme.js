@@ -11,7 +11,7 @@ function greetme(name)
 function greetHai(name, Callback) // this "callback" will consider as function
 {
     console.log("Good Morning " + name)
-    Callback("AA") //call callback function
+    Callback() //call callback function
 }
 
 function greetbye()
@@ -19,6 +19,6 @@ function greetbye()
     console.log("Good Bye !!!!!!!!!!!")
 }
 
-greetHai("Ashidha" ,greetme) // first run the normal function greetme
+greetHai("Jerry" ,greetbye) // first run the normal function greetme
 //then go to greetHai function
 // then go to callback function
